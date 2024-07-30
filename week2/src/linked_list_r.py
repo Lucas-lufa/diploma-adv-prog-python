@@ -1,6 +1,6 @@
 from __future__ import annotations
 from typing import Any, Optional, Iterable
-from node import Node
+from week2.src.node_r import Node
 
 class EmptyListError(Exception):
     ...

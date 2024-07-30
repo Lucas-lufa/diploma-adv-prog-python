@@ -1,3 +1,4 @@
+
 class Node:
     def __init__(self, int_val, float_val):
         self.int_val = int_val
