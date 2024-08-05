@@ -5,6 +5,9 @@ class Node:
 
         self.data = data
 
+        def __str__(self):
+            return "self.data" 
+        
         def __repr__(self):
             return self.data 
 
@@ -34,4 +37,4 @@ class DoubleList:
         pass
 
 node = Node()
-print(node)
+print(str(node))
